@@ -2,7 +2,7 @@
 """ Python script to manage pontential ghost switches between REDCap projects
 from the ICARIA Clinical Trial"""
 
-import ghosts
+import ghost_logs
 
 __author__ = "Andreu Bofill"
 __copyright__ = "Copyright 2024, ISGlobal Maternal, Child and Reproductive Health"
@@ -17,4 +17,4 @@ __status__ = "Finished"
 
 if __name__ == '__main__':
     """ To find Ghost entry records (interproject Ghosts)"""
-    ghosts.define_ghost_records()
+    ghost_logs.define_ghost_records()
